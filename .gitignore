@@ -1,0 +1,18 @@
+# Ignore virtual environment
+venv/
+
+# Ignore environment variables file
+RealtimeTTS/.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore media files that don't need to be in version control
+RealtimeTTS/*.mp3
+RealtimeTTS/*.wav
+
+# Other files to ignore
+RealtimeTTS/__pycache__/
+RealtimeTTS/engines/__pycache__/
+

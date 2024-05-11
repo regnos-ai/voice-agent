@@ -15,7 +15,7 @@ class OpenAIVoice:
 class OpenAIEngine(BaseEngine):
 
     def __init__(self,
-                 model: str = "tts-1",
+                 model: str = "tts-1",                
                  voice: str = "nova"):
         """
         Initializes a openai realtime text to speech engine object.

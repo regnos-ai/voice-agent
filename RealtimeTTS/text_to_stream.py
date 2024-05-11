@@ -1,10 +1,10 @@
-from .threadsafe_generators import (
+from threadsafe_generators import (
      CharIterator,
      AccumulatingThreadSafeGenerator
 )
-from .stream_player import StreamPlayer, AudioConfiguration
+from stream_player import StreamPlayer, AudioConfiguration
 from typing import Union, Iterator, List
-from .engines import BaseEngine
+from engines import BaseEngine
 import stream2sentence as s2s
 import numpy as np
 import threading
